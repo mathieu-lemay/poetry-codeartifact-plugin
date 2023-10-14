@@ -1,15 +1,15 @@
 [tool.poetry]
 name = "poetry-codeartifact-plugin"
-version = "1.0.1"
+version = "1.0.2"
 description = "A poetry plugin for keeping your CodeArtifact authorization token up-to-date"
-authors = ["Tom Petr <tom@r2c.dev>"]
+authors = ["Tom Petr <tom@r2c.dev>", "Mathieu Lemay <acidrain1@gmail.com>"]
 readme = "README.md"
 packages = [{include = "poetry_codeartifact_plugin"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-poetry = "^1.2.0"
-boto3 = "^1.24.57"
+poetry = "^1.6.1"
+boto3 = "^1.28.63"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"
